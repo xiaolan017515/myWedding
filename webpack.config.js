@@ -1,19 +1,22 @@
 const webpack = require("webpack"),
     path = require("path"),
     fs = require("fs");
-    // ExtractTextPlugin = require("extract-text-webpack-plugin");// 独立css
+// ExtractTextPlugin = require("extract-text-webpack-plugin");// 独立css
 
 // 省域版
 const urlList = "public/js";
 const TIME = new Date();
 const fileNamed = "index";
+const env = process.env.NODE_ENV;
+console.log(env);
+
 module.exports = {
     // devtool: "source-map", // 便于调试
-    entry: urlList + "/static/"+fileNamed+".js",
+    entry: urlList + "/static/" + fileNamed + ".js",
     output: {
         publicPath: "../build/",
         path: path.join(__dirname, "build"),
-        filename: ""+fileNamed+".min.js"
+        filename: "" + fileNamed + ".min.js"
     },
     module: {
         preLoaders: [
@@ -24,14 +27,19 @@ module.exports = {
             //    test: /\.less$/,
             //    loader: ExtractTextPlugin.extract('style-loader',  "css-loader!less-loader")
             // },
-            {test: /\.less$/,loader: "style-loader!css-loader!autoprefixer-loader!less-loader?sourceMap"},
-            {test: /\.css$/,loader: "style-loader!css-loader!autoprefixer-loader"},
+            {
+                test: /\.less$/,
+                loader: "style-loader!css-loader!autoprefixer-loader!less-loader?sourceMap"
+            }, {
+                test: /\.css$/,
+                loader: "style-loader!css-loader!autoprefixer-loader"
+            },
             // {test: /\.(eot|woff|svg|ttf|woff2|gif)(\?|$)/, loader: 'file-loader?limit=30000&name=[hash].[ext]'},
             {
                 test: /\.(png|jpg)$/,
                 loader: 'url?limit=30000&name=[hash].[ext]'
             }, {
-                test: /\.js?$/,
+                test: /\.jsx?$/,
                 loader: 'babel-loader',
                 exclude: /node_modules/,
                 query: {

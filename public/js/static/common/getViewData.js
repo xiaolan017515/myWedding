@@ -16,30 +16,32 @@
 			json = void 0;
 
 		$.ajax({
-			//	请求配置
-			url: url,
-			type: type,
-			data: data,
-			header:{"sig": $.getUrlParam('sig')},
-			async: async
+				//	请求配置
+				url: url,
+				type: type,
+				data: data,
+				header: {
+					"sig": $.getUrlParam('sig')
+				},
+				async: async
 
-		}).done(function(data) {
-			//	请求成功后赋值
-			json = data || [];
-			//	请求成功后异步回调
-			if (typeof(callback) === 'function') {
-				callback(json, true);
-			}
-			return false;
-		})
-		.fail(function(data) {
-			json = data || [];
-			//	请求成功后异步回调
-			if (typeof(callback) === 'function') {
-				callback(json, false);
-			}
-			return false;
-		});
+			}).done(function(data) {
+				//	请求成功后赋值
+				json = data || [];
+				//	请求成功后异步回调
+				if (typeof(callback) === 'function') {
+					callback(json, true);
+				}
+				return false;
+			})
+			.fail(function(data) {
+				json = data || [];
+				//	请求成功后异步回调
+				if (typeof(callback) === 'function') {
+					callback(json, false);
+				}
+				return false;
+			});
 
 		//	同步返回值
 		return json;
