@@ -1,0 +1,13 @@
+@-webkit-keyframes indeximglined {
+  0% {
+      left: -50%;
+  }
+
+  30% {
+      left: 150%;
+  }
+
+  100%{
+      left: 150%;
+  }
+}
