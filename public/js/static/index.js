@@ -15,6 +15,7 @@ import {
 } from "./indexComponent.js";
 import ContainerInvitation from "./invitationComponent.js";
 import ContainerPicture from "./picturesComponent.js";
+import ContainerAddress from "./addressComponent.js";
 // import PubSub from 'pubsub-js';
 
 class ContainerIndex extends React.Component {
@@ -33,6 +34,7 @@ ReactDOM.render(
 		<Route path="/" component={ContainerIndex}/>
 		<Route path="/invitation" component={ContainerInvitation}/>
 		<Route path="/picture" component={ContainerPicture}/>
+		<Route path="/address" component={ContainerAddress}/>
 	</Router>,
 	document.getElementById('main')
 );

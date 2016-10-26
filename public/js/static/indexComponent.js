@@ -2,22 +2,24 @@ import "jquery";
 import "../plus/swiper-3.4.0.jquery.min.js";
 import "../../css/swiper.min.css";
 import React from 'react';
-import {Link} from "react-router";
+import {
+	Link
+} from "react-router";
 
 class IndexPicComponent extends React.Component {
 	constructor(props) {
 		super(props);
 	}
-	componentDidMount(){
-		var mySwiper = new Swiper('.swiper-container',{
-				effect:'fade',
-				loop: true,
-				autoplay:5000,
-				updateOnImagesReady : true,
-				observer:true,
-				observeParents:true,
-				onlyExternal: true
-			})     
+	componentDidMount() {
+		var mySwiper = new Swiper('.swiper-container', {
+			effect: 'fade',
+			loop: true,
+			autoplay: 5000,
+			updateOnImagesReady: true,
+			observer: true,
+			observeParents: true,
+			onlyExternal: true
+		})
 	}
 	render() {
 		return (
@@ -57,7 +59,7 @@ class IndexListComponent extends React.Component {
 						</Link>
 	                </li>
 	                <li>
-	                    <Link to="/dress">
+	                    <Link to="/address">
 							<i className="icon iconfont i3">&#xe6a3;</i>
 	                    	<div className="name">婚宴地址</div>
 						</Link>
@@ -75,6 +77,6 @@ class IndexListComponent extends React.Component {
 }
 
 module.exports = {
-	IndexPicComponent:IndexPicComponent,
-	IndexListComponent:IndexListComponent
+	IndexPicComponent: IndexPicComponent,
+	IndexListComponent: IndexListComponent
 }
