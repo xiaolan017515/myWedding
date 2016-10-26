@@ -197,12 +197,6 @@ export function toThousands(num) {
 	return result.join('');
 };
 
-//提取字符串中介于两个指定下标之间的字符
-export function splitString(string, start, end) {
-	var result = string.substring(start, end);
-	return result;
-};
-
 export function show_num(type, value, isShowEnd) {
 	var num = $(type);
 	num.animate({
