@@ -3,10 +3,10 @@
 @import "../css/common.css";
 
 .reset();
-.invitation-box{
+.invitation-box-1{
 	.maxBody();
 	position: relative;
-	background: #A48B51;
+	background: #A7E1F1;
 	div{
 		position: absolute;
 		text-align: center;
@@ -84,9 +84,165 @@
 		color: #fff;
 	}
 }
-
-
+.invitation-box-2{
+	.maxBody();
+	position: relative;
+	background: url(../img/invitation/bg1.jpg) no-repeat center center; 
+	background-size: cover;
+	font-family: "微软雅黑";
+	.content-box{
+		.d-flex-h();
+		.flex-hc();
+		.flex-vc();
+		position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	.svg-bg{
+		height: 80%;
+	}
+	.svg-flower{
+		position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: 60%;
+		bottom: 0;
+		height: 9%;
+	}
+	.font-p1{
+		position: absolute;
+		width: 100%;
+	    top: 20%;
+	    left: 0;
+	    text-align: center;
+	    color: rgb(41, 143, 171);
+	    font-size: 3.5vh;
+	}
+	.font-p2{
+		position: absolute;
+		width: 60%;
+	    top: 28%;
+	    left: 0;
+	    padding: 0 20%; 
+	    line-height: 3vh;
+	    color: #999;
+	    font-size: 2vh;
+	    letter-spacing:5px;
+	    text-align: center;
+	    span{
+	    	color: #FF8787;
+	    }
+	}
+	.font-p3{
+		position: absolute;
+		width: 60%;
+	    top: 50%;
+	    left: 0;
+	    padding: 0 20%; 
+	    font-size: 3vh;
+	    text-align: center;
+	    span{
+	    	color: #298FAB;
+	    	&:first-child{
+	    		float: left;
+	    	}
+	    	&:last-child{
+	    		float: right;
+	    	}
+	    }
+	    img{
+	    	width: 20%;
+	    	position: relative;
+	    	top: -4px;
+	    }
+	}
+	.font-p4{
+		position: absolute;
+		width: 100%;
+	    top: 58%;
+	    left: 0;
+	    text-align: center;
+	    color: #FF8787;
+	    font-size: 3.5vh;
+	}
+	.font-p5{
+		position: absolute;
+		width: 100%;
+	    top: 67%;
+	    left: 0;
+	    text-align: center;
+	    color: #888;
+	    font-size: 2vh;
+	}
+	.font-p6{
+		position: absolute;
+		width: 100%;
+	    top: 71%;
+	    left: 0;
+	    text-align: center;
+	    color: #888;
+	    font-size: 2vh;
+	}
+}
+.invitation-box-3{
+	.maxBody();
+	position: relative;
+	background: url(../img/invitation/bg1.jpg) no-repeat center center; 
+	background-size: cover;
+	font-family: "微软雅黑";
+}
 .swiper-box{
 	.maxBody();
 	position: relative;
+}
+
+.u-arrow-bottom{
+	width: 24px;
+    height: 14px;
+	position: absolute;
+	bottom: 10px;
+    left: 50%;
+    z-index: 150;
+    margin-left: -7px;
+    .pre-box1, 
+    .pre-box2{
+	    height: 15px;
+	    width: 11px;
+	    position: absolute;
+	    top: -5px;
+	    overflow: hidden;
+    }
+    .pre-box2 {
+	    left: 10px;
+	}
+	.pre1, 
+	.pre2{
+		width: 14px;
+	    height: 5px;
+	    position: absolute;
+	    box-shadow: 1px -1px 1px #646464;
+	    top: 5px;
+	}
+	.pre1 {
+	    transform: rotate(130deg);
+	    -webkit-transform: rotate(130deg);
+	    left: 1px;
+	}
+	.pre2 {
+	    left: -4.5px;
+	    -webkit-transform: rotate(50deg);
+	    transform: rotate(50deg);
+	}
+	.pre-wrap {
+	    width: 24px;
+	    height: 14px;
+	    position: relative;
+	    -webkit-animation: arrowstart 1.5s infinite ease-in-out;
+	    -moz-animation: arrowstart 1.5s infinite ease-in-out;
+	    animation: arrowstart 1.5s infinite ease-in-out;
+	}
 }

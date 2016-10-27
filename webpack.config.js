@@ -6,7 +6,7 @@ const webpack = require("webpack"),
 // 省域版
 const urlList = "public/js";
 const TIME = new Date();
-const fileNamed = "index";
+const fileNamed = "loading";
 const env = process.env.NODE_ENV;
 console.log(env);
 
