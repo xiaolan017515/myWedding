@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "export NODE_ENV=dev&&webpack-dev-server --inline --hot",
+    "start": "set NODE_ENV=dev&&webpack-dev-server --inline --hot",
     "build": "export NODE_ENV=prod&&webpack-dev-server --inline --hot"
   },
   "keywords": [

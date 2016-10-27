@@ -3,35 +3,36 @@ import React from 'react';
 
 // 相册浏览页面
 class ContainerAddress extends React.Component {
-	componentDidMount() {
-		// 百度地图API功能
-		var map = new BMap.Map("myMap");
-		var point = new BMap.Point(103.749461, 29.932389);
-		map.centerAndZoom(point, 18);
-		var marker = new BMap.Marker(point); // 创建标注
-		map.addOverlay(marker); // 将标注添加到地图中
-		marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
-
-		// var myIcon = new BMap.Icon("myicon.png", new BMap.Size(30, 30), {
-		// 	anchor: new BMap.Size(10, 10)
-		// });
-
-		// var marker = new BMap.Marker(point, {
-		// 	icon: myIcon
-		// });
-		// map.addOverlay(marker);
-
-		var geolocation = new BMap.Geolocation();
+	constructor(props) {
+		super(props);
+	}
+	// 定位地图到界面中心位置
+	mapToCenter(){
+		let ZOOM = 18;
+		this.map = new BMap.Map("myMap");
+		this.pointAttr = [103.749461,29.932389];
+		this.point = new BMap.Point(this.pointAttr[0],this.pointAttr[1]);
+		this.map.centerAndZoom(this.point, ZOOM);
+	}
+	// 地图标注
+	mapMarkPoint(){
+		this.marker = new BMap.Marker(this.point); // 创建标注
+		this.map.addOverlay(this.marker); // 将标注添加到地图中
+		this.marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+	}
+	// 定位当前位置坐标
+	mapGeolocation(){
+		let that = this;
+		let geolocation = new BMap.Geolocation();
 		geolocation.getCurrentPosition(function(r) {
+			console.log(this.getStatus());
 			if (this.getStatus() == BMAP_STATUS_SUCCESS) {
-				var mk = new BMap.Marker(r.point);
-				map.addOverlay(mk);
-				// map.panTo(r.point); //地图中心点移到当前位置
-				var latCurrent = r.point.lat;
-				var lngCurrent = r.point.lng;
+				let mk = new BMap.Marker(r.point);
+				that.map.addOverlay(mk);
+				that.map.panTo(r.point); //地图中心点移到当前位置
+				let latCurrent = r.point.lat;
+				let lngCurrent = r.point.lng;
 				console.log('我的位置：' + latCurrent + ',' + lngCurrent);
-
-				// location.href = "http://api.map.baidu.com/direction?origin=" + latCurrent + "," + lngCurrent + "&destination=29.932389,103.749461&mode=driving&region=眉山&output=html";
 
 			} else {
 				alert('failed' + this.getStatus());
@@ -39,6 +40,17 @@ class ContainerAddress extends React.Component {
 		}, {
 			enableHighAccuracy: true
 		})
+	}
+	mapLocationToHref(lat,lng){
+		let pointer = this.pointAttr;
+		let region = "眉山";
+		let url = "http://api.map.baidu.com/direction?origin=" + lat + "," + lng + "&destination=" + pointer[1] + "," + pointer[0] + "&mode=driving&region="+region+"&output=html"
+		location.href = url;
+	}
+	componentDidMount() {
+		this.mapToCenter();
+		this.mapMarkPoint();
+		// this.mapGeolocation();
 	}
 	render() {
 		return (
