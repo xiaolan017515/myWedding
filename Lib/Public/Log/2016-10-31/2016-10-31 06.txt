@@ -1,0 +1,2490 @@
+2016-10-31 06:00:01:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:00:01:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:00:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:00:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:03:00:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:00:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:03:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:03:19:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:19:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:03:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:20:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:03:21:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:21:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:03:22:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:22:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:03:51:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:52:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:54:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:03:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:00:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:01:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:19:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:21:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:22:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:42:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:44:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:45:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:46:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:56:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:04:56:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:05:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:05:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:05:55:message:
+array (
+  'type' => 1,
+  'message' => 'Class \'CustomController\' not found',
+  'file' => 'E:\\www\\index.php',
+  'line' => 6,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:05:56:message:
+array (
+  'type' => 1,
+  'message' => 'Class \'CustomController\' not found',
+  'file' => 'E:\\www\\index.php',
+  'line' => 6,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:06:01:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:06:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:06:08:message:
+array (
+  'type' => 1,
+  'message' => 'Uncaught exception \'LogicException\' with message \'Function \'load\' not found (function \'load\' not found or invalid function name)\' in E:\\www\\Lib\\Common\\start.php:15
+Stack trace:
+#0 E:\\www\\Lib\\Common\\start.php(15): spl_autoload_register(\'load\')
+#1 E:\\www\\index.php(2): require_once(\'E:\\www\\Lib\\Comm...\')
+#2 {main}
+  thrown',
+  'file' => 'E:\\www\\Lib\\Common\\start.php',
+  'line' => 15,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:06:09:message:
+array (
+  'type' => 1,
+  'message' => 'Uncaught exception \'LogicException\' with message \'Function \'load\' not found (function \'load\' not found or invalid function name)\' in E:\\www\\Lib\\Common\\start.php:15
+Stack trace:
+#0 E:\\www\\Lib\\Common\\start.php(15): spl_autoload_register(\'load\')
+#1 E:\\www\\index.php(2): require_once(\'E:\\www\\Lib\\Comm...\')
+#2 {main}
+  thrown',
+  'file' => 'E:\\www\\Lib\\Common\\start.php',
+  'line' => 15,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:06:15:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:06:16:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:06:16:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:52:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:54:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:56:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:56:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:57:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:57:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:57:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:57:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:57:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:57:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:07:57:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:10:43:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:44:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:45:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:46:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:47:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:48:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:49:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:50:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:51:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:52:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:53:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:54:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:55:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:10:56:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 98,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:12:26:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:27:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:28:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:28:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:28:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:28:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:12:30:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:13:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:13:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:26:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:26:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:33:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:33:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:36:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:36:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:37:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:37:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:38:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:38:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:39:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:39:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:40:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:40:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:41:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:41:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:41:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:41:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:41:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:41:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:41:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:41:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:42:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:42:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:36
+2016-10-31 06:13:52:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:52:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:13:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:13:53:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:14:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:03:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:05:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:05:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:06:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:14:06:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:51:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:51:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:52:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:52:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:52:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:52:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:53:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:53:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:53:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:53:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:53:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:53:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:54:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:54:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:54:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:54:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:15:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:15:55:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:17:16:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:17:16:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:29:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:30:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:30:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:30:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:30:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:30:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:30:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:31:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:31:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:31:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:31:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:31:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:31:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:31:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:31:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:31:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:31:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:31:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:31:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:32:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:58:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:58:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:20:59:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:20:59:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:00:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:00:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:01:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:01:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:02:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:03:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:03:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:04:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:21:04:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:21:04:message:
+错误类型:8
+错误提示:Undefined variable: id
+错误文件:E:\www\Lib\Controller\CustomController.class.php
+错误行:35
+2016-10-31 06:22:05:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:09:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:18:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:19:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:21:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:22:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:22:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:22:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:22:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:51:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:52:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:53:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:54:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:54:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:23:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:24:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:24:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:24:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:24:37:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:24:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:24:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:24:55:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:21:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:22:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:25:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:42:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:42:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:26:43:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:43:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:26:44:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:44:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:26:44:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:44:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:26:44:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:44:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:26:45:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:26:45:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:01:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:01:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:02:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:02:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:03:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:03:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:03:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:03:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:03:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:03:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:03:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:03:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:09:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:09:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:10:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:10:message:
+错误类型:4096
+错误提示:Object of class mysqli_result could not be converted to string
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:93
+2016-10-31 06:27:20:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:23:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:27:24:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:09:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:11:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:12:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:12:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:13:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:13:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:31:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:31:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:33:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:33:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:37:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:37:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:38:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:38:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:39:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:39:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:39:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:39:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:39:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:39:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:39:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:39:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:39:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:39:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:39:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:39:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:49:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:49:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:49:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:49:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:28:50:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:28:50:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:97
+2016-10-31 06:29:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:08:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:09:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:09:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:09:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:09:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:09:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:09:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:09:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:09:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:10:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:10:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:10:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:10:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:10:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:10:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:10:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:10:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:10:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:10:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:29:10:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:29:10:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:109
+2016-10-31 06:34:59:message:
+错误类型:2
+错误提示:mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] ����Ŀ�����������ܾ����޷����ӡ�
+ (trying to connect via tcp://127.0.0.1:3306)
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:33
+2016-10-31 06:34:59:message:
+错误类型:2
+错误提示:mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): ����Ŀ�����������ܾ����޷����ӡ�
+
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:33
+2016-10-31 06:35:01:message:
+错误类型:2
+错误提示:mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: [2002] ����Ŀ�����������ܾ����޷����ӡ�
+ (trying to connect via tcp://localhost:3306)
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:40
+2016-10-31 06:35:01:message:
+错误类型:2
+错误提示:mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: ����Ŀ�����������ܾ����޷����ӡ�
+
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:40
+2016-10-31 06:35:01:message:
+错误类型:2
+错误提示:mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:40
+2016-10-31 06:35:01:message:
+array (
+  'type' => 1,
+  'message' => 'Call to a member function query() on a non-object',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 93,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:35:07:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:08:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:110
+2016-10-31 06:35:10:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:11:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:110
+2016-10-31 06:35:12:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:13:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:110
+2016-10-31 06:35:13:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:14:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:110
+2016-10-31 06:35:41:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:41:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:111
+2016-10-31 06:35:42:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:42:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:111
+2016-10-31 06:35:43:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:43:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:111
+2016-10-31 06:35:43:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:43:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:111
+2016-10-31 06:35:43:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:43:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:111
+2016-10-31 06:35:43:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:43:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:111
+2016-10-31 06:35:44:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:35:44:message:
+错误类型:8
+错误提示:Array to string conversion
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:111
+2016-10-31 06:36:05:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:05:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:06:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:06:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:07:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:07:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:08:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:08:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:08:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:08:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:08:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:08:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:08:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function query()',
+  'file' => 'E:\\www\\Lib\\Driver\\db.driver.php',
+  'line' => 92,
+  'tag' => 'shutdownFunction',
+)2016-10-31 06:36:25:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:26:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:27:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:28:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:29:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:30:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:31:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:32:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:34:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:37:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38
+2016-10-31 06:36:39:message:
+错误类型:2
+错误提示:mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Error executing query
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:38

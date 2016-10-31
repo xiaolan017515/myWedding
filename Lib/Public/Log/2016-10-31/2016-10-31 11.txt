@@ -1,0 +1,15 @@
+2016-10-31 11:52:38:message:
+array (
+  'type' => 4,
+  'message' => 'syntax error, unexpected \'[\', expecting \']\'',
+  'file' => 'E:\\www\\Lib\\Controller\\CustomController.class.php',
+  'line' => 588,
+  'tag' => 'shutdownFunction',
+)2016-10-31 11:52:42:message:
+array (
+  'type' => 4,
+  'message' => 'syntax error, unexpected \'[\', expecting \']\'',
+  'file' => 'E:\\www\\Lib\\Controller\\CustomController.class.php',
+  'line' => 588,
+  'tag' => 'shutdownFunction',
+)
