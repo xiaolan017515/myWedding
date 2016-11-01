@@ -1,0 +1,624 @@
+<!DOCTYPE html><html><head><title>IccWxAPI</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'><style></style></head><body><div id='preview-contents' class='note-content'>
+                        <div id="wmd-preview" class="preview-content"></div>
+                    <div class="wmd-preview-section preview-content" id="wmd-preview-section-1">
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><a href="#iccwxapi">IccWxAPI</a><ul>
+<li><a href="#路径">路径</a></li>
+<li><a href="#基本返回信息">基本返回信息</a></li>
+<li><a href="#文件目录">文件目录</a><ul>
+<li><a href="#贷款入口文件">贷款入口文件</a><ul>
+<li><a href="#indexphp-wxiisunnethpjrindexphpcm">index.php ( wx.iisun.net/hpjr/index.php?C=?&amp;M=?  )</a></li>
+</ul>
+</li>
+<li><a href="#公共函数目录-libcommon">公共函数目录 Lib/Common</a><ul>
+<li><a href="#commonphp公共函数">common.php(公共函数)</a><ul>
+<li><a href="#get方式在url下获取数据">get方式在url下获取数据</a></li>
+<li><a href="#post方式在url下获取数据">post方式在url下获取数据</a></li>
+<li><a href="#下载在线图片上传至服务器">下载在线图片上传至服务器</a></li>
+<li><a href="#将数组转化成sql更新语句">将数组转化成sql更新语句</a></li>
+<li><a href="#将数组转化成sql插入语句">将数组转化成sql插入语句</a></li>
+</ul>
+</li>
+<li><a href="#入口文件的配置信息">入口文件的配置信息</a></li>
+</ul>
+</li>
+<li><a href="#控制器-libcontroller">控制器 Lib/Controller</a><ul>
+<li><a href="#appcontrollerclassphp和客户端交互的接口">AppController.class.php(和客户端交互的接口)</a><ul>
+<li><a href="#app端获取客户的个人信息">APP端获取客户的个人信息</a></li>
+<li><a href="#app端获取销售员个人信息">App端获取销售员个人信息</a></li>
+<li><a href="#app端查询楼盘信息">APP端查询楼盘信息</a></li>
+<li><a href="#app端查询开发商的信息">APP端查询开发商的信息</a></li>
+<li><a href="#app端查询4s店信息">APP端查询4S店信息</a></li>
+<li><a href="#app端更新客户的贷款进度">APP端更新客户的贷款进度</a></li>
+</ul>
+</li>
+<li><a href="#customcontrollerclassphp用户接口">CustomController.class.php(用户接口)</a><ul>
+<li><a href="#获取客户的个人信息">获取客户的个人信息</a></li>
+<li><a href="#更新客户的信息">更新客户的信息</a></li>
+<li><a href="#客户专属的销售员信息">客户专属的销售员信息</a></li>
+<li><a href="#联系销售员预约看房">联系销售员,预约看房</a></li>
+<li><a href="#客户发送消息给销售">客户发送消息给销售</a></li>
+<li><a href="#客户专属消息">客户专属消息</a></li>
+</ul>
+</li>
+<li><a href="#修改消息阅读状态">修改消息阅读状态</a><ul>
+<li><a href="#客户申请房贷">客户申请房贷</a></li>
+<li><a href="#客户申请车贷">客户申请车贷</a></li>
+<li><a href="#客户申请装修贷">客户申请装修贷</a></li>
+<li><a href="#客户贷款进度信息">客户贷款进度信息</a></li>
+<li><a href="#客户专属的客户经理">客户专属的客户经理</a></li>
+<li><a href="#客户对客户经理的评价">客户对客户经理的评价</a></li>
+<li><a href="#查询客户贷款详情">查询客户贷款详情</a></li>
+<li><a href="#客户取消贷款">客户取消贷款</a></li>
+<li><a href="#dedecms-获取销售和客户的基本信息">dedecms 获取销售和客户的基本信息</a></li>
+</ul>
+</li>
+<li><a href="#salecontrollerclassphp销售员接口">SaleController.class.php(销售员接口)</a><ul>
+<li><a href="#获取销售员的客户列表">获取销售员的客户列表</a></li>
+<li><a href="#发送消息给指定群体的客户群发消息">发送消息给指定群体的客户(群发消息)</a></li>
+<li><a href="#回复客户的消息">回复客户的消息</a></li>
+<li><a href="#更新消息的阅读状态">更新消息的阅读状态</a></li>
+<li><a href="#获取来自客户的消息">获取来自客户的消息</a></li>
+<li><a href="#获取消息列表不包含来自客户的消息">获取消息列表(不包含来自客户的消息)</a></li>
+<li><a href="#获取销售员所有信息个人信息评分信息二维码">获取销售员所有信息(个人信息、评分信息、二维码)</a></li>
+<li><a href="#更新销售员的个人信息">更新销售员的个人信息</a></li>
+<li><a href="#销售员的业绩分析">销售员的业绩分析</a></li>
+</ul>
+</li>
+<li><a href="#managercontrollerclassphp管理员接口">ManagerController.class.php(管理员接口)</a><ul>
+<li><a href="#注册销售员获取管理员的二维码">注册销售员(获取管理员的二维码)</a></li>
+<li><a href="#销售员列表">销售员列表</a></li>
+<li><a href="#销售员详情">销售员详情</a></li>
+<li><a href="#客户列表">客户列表</a></li>
+<li><a href="#客户分析">客户分析</a></li>
+<li><a href="#业绩统计">业绩统计</a></li>
+</ul>
+</li>
+<li><a href="#房贷控制器fangdaicontroller">房贷控制器(FangdaiController)</a><ul>
+<li><a href="#获取jsapi">获取Jsapi</a></li>
+</ul>
+</li>
+<li><a href="#车贷控制器chedaicontroller">车贷控制器(ChedaiController)</a><ul>
+<li><a href="#获取jsapi-1">获取Jsapi</a></li>
+</ul>
+</li>
+<li><a href="#图片控制器">图片控制器</a><ul>
+<li><a href="#上传头像">上传头像</a></li>
+<li><a href="#上传头像-base64">上传头像 Base64</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-2">
+
+<h1 id="iccwxapi">IccWxAPI</h1>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-3">
+
+<h2 id="路径">路径</h2>
+
+<p>wx.iisun.net/hpjr/index.php?C=?&amp;M=?</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-4">
+
+<h2 id="基本返回信息">基本返回信息</h2>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-560">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    error_code:  <br>        <span class="hljs-number">0</span>：//执行成功，未发生任何错误<br>        -<span class="hljs-number">1</span>://接受到的数据为空<br>        -<span class="hljs-number">2</span>：//不属于任何团队<br>        -<span class="hljs-number">3</span>://sql语句执行出错<br>        -<span class="hljs-number">4</span>：//等级不足，没有操作权限<br>        -<span class="hljs-number">5</span>://名称重复<br><br>        //<span class="hljs-number">1</span>* 正则验证返回值<br>        -<span class="hljs-number">11</span> //电话格式出错<br>        -<span class="hljs-number">12</span>//身份证格式出错<br>        -<span class="hljs-number">13</span>//姓名格式出错<br>        -<span class="hljs-number">21</span>://未查询到相关销售员的信息<br>        -<span class="hljs-number">22</span>://已经评价过该销售<br><br>        //<span class="hljs-number">3</span>* app 端<br>        -<span class="hljs-number">31</span> //提交至APP端 发生错误<br><br>        //<span class="hljs-number">4</span> <br>        -<span class="hljs-number">41</span> //已申请过该类型的贷款    <br>        -<span class="hljs-number">42</span> //审批已过,无法取消贷款<br>        -<span class="hljs-number">43</span> //未查询到用户的贷款详情<br>        -<span class="hljs-number">44</span> //贷款金额错误<br>        //<span class="hljs-number">5</span>图片<br>        -<span class="hljs-number">51</span> //图片上传失败<br>    status:接口状态 <span class="hljs-literal">true</span>/<span class="hljs-literal">false</span> (boolen)<br>    msg:返回信息 (ok,error sql ....)<br></code></pre></div><div class="wmd-preview-section preview-content" id="wmd-preview-section-6">
+
+<h2 id="文件目录">文件目录</h2>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-7">
+
+<h3 id="贷款入口文件">贷款入口文件</h3>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-8">
+
+<h4 id="indexphp-wxiisunnethpjrindexphpcm">index.php ( wx.iisun.net/hpjr/index.php?C=?&amp;M=?  )</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-9">
+
+<h3 id="公共函数目录-libcommon">公共函数目录 Lib/Common</h3>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-10">
+
+<h4 id="commonphp公共函数">common.php(公共函数)</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-11">
+
+<h5 id="get方式在url下获取数据">get方式在url下获取数据</h5>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-12">
+
+<pre class="prettyprint hljs-dark"><code class="language-php hljs">    <span class="hljs-comment">/**<br>    *<br>    *<span class="hljs-doctag">@param</span> string url 获取数据的地址<br>    *<span class="hljs-doctag">@return</span> array 服务器返回的结果<br>    *<span class="hljs-doctag">@descripe</span> 使用get方式 到指定的url 下采集数据<br>    */</span><br>    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getCurl</span><span class="hljs-params">(<span class="hljs-variable">$url</span>)</span></span>{<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-13">
+
+<h5 id="post方式在url下获取数据">post方式在url下获取数据</h5>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-14">
+
+<pre class="prettyprint hljs-dark"><code class="language-php hljs">    <span class="hljs-comment">/**<br>    *<br>    *<span class="hljs-doctag">@param</span> string url 推送数据的地址<br>    *<span class="hljs-doctag">@return</span> array  服务器返回的结果<br>    *<span class="hljs-doctag">@descripe</span>  使用post方式 发送数据到指定的url下采集数据<br>    */</span><br>    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">postCurl</span><span class="hljs-params">(<span class="hljs-variable">$url</span>,<span class="hljs-variable">$data</span>)</span></span>{<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-15">
+
+<h5 id="下载在线图片上传至服务器">下载在线图片上传至服务器</h5>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-16">
+
+<pre class="prettyprint hljs-dark"><code class="language-php hljs">    <span class="hljs-comment">/**<br>    *<span class="hljs-doctag">@param</span> stirng url 在线图片地址<br>    *<span class="hljs-doctag">@param</span> string name 本地图片保存路径<br>    *<span class="hljs-doctag">@descripe</span> 下载在线图片保存至本地<br>    */</span><br>    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">uploadImg</span><span class="hljs-params">(<span class="hljs-variable">$url</span>,<span class="hljs-variable">$name</span>)</span></span>{<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-17">
+
+<h5 id="将数组转化成sql更新语句">将数组转化成sql更新语句</h5>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-18">
+
+<pre class="prettyprint hljs-dark"><code class="language-php hljs">    <span class="hljs-comment">/**<br>    *<span class="hljs-doctag">@param</span> array 转换成sql更新语句的数组<br>    *<span class="hljs-doctag">@param</span> string 要更新数据的表 <br>    *<span class="hljs-doctag">@return</span>  string  生成的sql语句<br>    *<span class="hljs-doctag">@descripe</span> 将数组转化成sql语句<br>    */</span><br>    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">updateString</span><span class="hljs-params">(<span class="hljs-variable">$data</span>,<span class="hljs-variable">$table</span>,<span class="hljs-variable">$key</span>)</span></span>{<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-19">
+
+<h5 id="将数组转化成sql插入语句">将数组转化成sql插入语句</h5>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-20">
+
+<pre class="prettyprint hljs-dark"><code class="language-php hljs">    <span class="hljs-comment">/**<br>    *<span class="hljs-doctag">@param</span> array 转换成sql插入语句的数组<br>    *<span class="hljs-doctag">@param</span> string 要插入数据的表 <br>    *<span class="hljs-doctag">@return</span>  string  生成的sql语句<br>    *<span class="hljs-doctag">@descripe</span> 将数组转化成sql语句<br>    */</span><br>    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">insertString</span><span class="hljs-params">(<span class="hljs-variable">$data</span>,<span class="hljs-variable">$table</span>)</span></span>{<br>    }<br><br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-21">
+
+<h4 id="入口文件的配置信息">入口文件的配置信息</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-22">
+
+<h3 id="控制器-libcontroller">控制器 Lib/Controller</h3>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-23">
+
+<h4 id="appcontrollerclassphp和客户端交互的接口">AppController.class.php(和客户端交互的接口)</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-24">
+
+<h5 id="app端获取客户的个人信息">APP端获取客户的个人信息</h5>
+
+<p>*.php?C=App&amp;M=getCustom</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-25">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:json=<br>    {<br>        in_id:121<br>    }<br>    return :<br>    {<br>        "<span class="hljs-attribute">id</span>":<span class="hljs-value"><span class="hljs-string">"11"</span></span>,<br>        "<span class="hljs-attribute">name</span>":<span class="hljs-value"><span class="hljs-string">"\u75af\u5b50"</span></span>,<br>        "<span class="hljs-attribute">idcard</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>        "<span class="hljs-attribute">phone</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>        "<span class="hljs-attribute">marry</span>":<span class="hljs-value"><span class="hljs-string">"0"</span><br>        <span class="hljs-string">"type"</span>:<br>        <span class="hljs-string">"addr"</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-26">
+
+<h5 id="app端获取销售员个人信息">App端获取销售员个人信息</h5>
+
+<p>*.php?C=App&amp;M=getSale</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-27">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:json=<br>    {<br>        in_id:121<br>    }<br>    return :<br>    {<br>        "<span class="hljs-attribute">id</span>":<span class="hljs-value"><span class="hljs-string">"11"</span></span>,<br>        "<span class="hljs-attribute">name</span>":<span class="hljs-value"><span class="hljs-string">"\u75af\u5b50"</span></span>,<br>        "<span class="hljs-attribute">idcard</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>        "<span class="hljs-attribute">phone</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>        "<span class="hljs-attribute">sex</span>":<span class="hljs-value"><span class="hljs-string">"男"</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-28">
+
+<h5 id="app端查询楼盘信息">APP端查询楼盘信息</h5>
+
+<p>*.php?C=App&amp;M=getBuilding</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-29">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:json=<br>    {<br>        in_id:121<br>    }<br>    return :<br>    {<br>        "<span class="hljs-attribute">name</span>":<span class="hljs-value"><span class="hljs-string">"\u75af\u5b50"</span></span>,<br>        "<span class="hljs-attribute">phone</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-30">
+
+<h5 id="app端查询开发商的信息">APP端查询开发商的信息</h5>
+
+<p>*.php?C=App&amp;M=getBuilder</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-31">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:json=<br>    {<br>        in_id:121<br>    }<br>    return :<br>    {<br>        "<span class="hljs-attribute">name</span>":<span class="hljs-value"><span class="hljs-string">"\u75af\u5b50"</span></span>,<br>        "<span class="hljs-attribute">addr</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>        "<span class="hljs-attribute">phone</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-32">
+
+<h5 id="app端查询4s店信息">APP端查询4S店信息</h5>
+
+<p>*.php?C=App&amp;M=get4s</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-33">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:json=<br>    {<br>        in_id:121<br>    }<br>    return :<br>    {<br>        "<span class="hljs-attribute">name</span>":<span class="hljs-value"><span class="hljs-string">"\u75af\u5b50"</span></span>,<br>        "<span class="hljs-attribute">addr</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>        "<span class="hljs-attribute">phone</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-34">
+
+<h5 id="app端更新客户的贷款进度">APP端更新客户的贷款进度</h5>
+
+<p>*.php?C=App&amp;M=updateProcess</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-35">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post :json=<br>    {<br>    'result':'ok',<br>    'msg':<br>     [<br>        {<br>            '0':(系统接受到任务)<br>            {<br>                'time':本次操作的时间,<br>            },<br>            '<span class="hljs-number">1</span>':(管理员分配给客户经理)<br>            {<br>                'time':本次操作的时间,<br>            },<br>            '<span class="hljs-number">2</span>':(管理员分配给客户经理)<br>            {<br>                'time':本次操作的时间,<br>            },<br>            '<span class="hljs-number">3</span>':(接收任务)<br>            {<br>                'time':本次操作的时间,<br>            },<br>            '<span class="hljs-number">4</span>':(资料提醒)<br>            {<br>                'time':本次操作的时间,<br>                'msg':<br>                {<br>                    'need':(需要提醒的)['身份证','学生证',...],<br>                    'time':(预约时间),<br>                    'addr':(约见地址)<br>                }<br>            },<br>            '<span class="hljs-number">5</span>':(审批反馈)<br>            {<br>                'time':本次操作的时间,<br>                'result':审批结果('pass'|'again'|'refuse'),<br>                'msg':审批结果的内容<br>            },<br>            '-<span class="hljs-number">1</span>':(确认放款)<br>            {<br>                'time':本次操作的时间,<br>                'msg':<br>                {<br>                    'time':确认放款时间,<br>                    'money':放款金额 <br>                }<br>            },<br>            'mm': (占位，无意义),<br>        },<br>        {<br>            '1':(借款合同领取提醒)<br>            {<br>                'time':本次操作的时间,<br>                'msg':<br>                {<br>                    'time':领取时间,<br>                    'name':联系人,<br>                    'phone':联系电话,<br>                }<br>            },<br>            '<span class="hljs-number">2</span>':(产权证提醒)<br>            {<br>                'time':本次操作的时间,<br>                'msg':<br>                {<br>                    'time':领取时间,<br>                    'name':联系人,<br>                    'phone':联系方式,<br>                }<br>            },<br>        }<br>    ]<br>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-36">
+
+<h4 id="customcontrollerclassphp用户接口">CustomController.class.php(用户接口)</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-37">
+
+<h5 id="获取客户的个人信息">获取客户的个人信息</h5>
+
+<p>*.php?C=Custom&amp;M=getOneCustom</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-38">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return:<br>    {<br>        status:true/false (服务器是否成功响应)<br>        info:{<br>            "<span class="hljs-attribute">id</span>":<span class="hljs-value"><span class="hljs-string">"11"</span></span>,<br>            "<span class="hljs-attribute">name</span>":<span class="hljs-value"><span class="hljs-string">"\u75af\u5b50"</span></span>,<br>            "<span class="hljs-attribute">idcard</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>            "<span class="hljs-attribute">phone</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>            "<span class="hljs-attribute">marry</span>":<span class="hljs-value"><span class="hljs-string">"0"</span><br>            <span class="hljs-string">"nickname"</span>:<br>            <span class="hljs-string">"head_img"</span>微信头像路径<br>            <span class="hljs-string">"img"</span>: <span class="hljs-number">0</span>(int)(没有查询到本地头像</span>,使用微信头像)     <br>        }<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-39">
+
+<h5 id="更新客户的信息">更新客户的信息</h5>
+
+<p>*.php?C=Custom&amp;M=updateOneCustom</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-40">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data<br>    {<br>        id:客户的id,<br>        data:{<br>            'name':<br>            'phone':<br>            ....<br>        }<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">status</span>":<span class="hljs-value"><span class="hljs-literal">true</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-41">
+
+<h5 id="客户专属的销售员信息">客户专属的销售员信息</h5>
+
+<p>*.php?C=Custom&amp;M=getSale</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-42">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        id:客户的id<br>    }<br>    return:<br>    {<br>        info:{<br>                "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"1"</span></span>,<br>            "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"疯子的销售员"</span></span>,<br>            "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"13850333333"</span></span>,<br>            "<span class="hljs-attribute">path</span>": <span class="hljs-value"><span class="hljs-string">"/Lib/Public/Img/sale/Chrysanthemum.jpg"</span>    <br>        </span>}<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-43">
+
+<h5 id="联系销售员预约看房">联系销售员,预约看房</h5>
+
+<p>*.php?C=Custom&amp;M=touchSale</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-44">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data<br>    {<br>        id:客户id<br>        data:<br>        {<br>            'msg':<br>            ...:<br>        }<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-45">
+
+<h5 id="客户发送消息给销售">客户发送消息给销售</h5>
+
+<p>*.php?C=Custom&amp;M=sendMsg</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-46">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data<br>    {<br>        id:客户id<br>        sale_id:销售id<br>        data:<br>        {<br>            'msg':<br>            ...<br>        }<br>    }<br>    return:<br>    {<br>        status:<br>        error_code<br>        msg<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-47">
+
+<h5 id="客户专属消息">客户专属消息</h5>
+
+<p>*.php?C=Custom&amp;M=getMsg</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-48">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return :<br>    {<br>        status:<br>        msg:<br>        error_code:<br>        info:<br>        [<br>            {<br>             "<span class="hljs-attribute">id</span>":<br>                <span class="hljs-value"><span class="hljs-string">"customid"</span>: <span class="hljs-string">"17"</span></span>,<br>                "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"来自潜在客户的消息"</span></span>,<br>                "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"110"</span></span>,<br>                "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-08 "</span></span>,<br>                "<span class="hljs-attribute">source</span>": <span class="hljs-value"><span class="hljs-string">"4"</span><br>                <span class="hljs-string">"is_look"</span>:是否阅读<br>            </span>},<br>            {<br>                "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"17"</span></span>,<br>                "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"来自潜在客户的消息"</span></span>,<br>                "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"110"</span></span>,<br>                "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-08 "</span></span>,<br>                "<span class="hljs-attribute">source</span>": <span class="hljs-value"><span class="hljs-string">"4"</span><br>            </span>}<br>        ]<br>          <span class="hljs-string">"list"</span>:<br>           [<br>                {<br>                    "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"debug&amp;18202878753&amp;不在线&amp;套二"</span><br>                    （姓名，电话，时间。xx //任何贷款都是此格式）<br><br>                </span>}<br>            ]<br><br>    }<br><br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-49">
+
+<h4 id="修改消息阅读状态">修改消息阅读状态</h4>
+
+<p>editMsgStatus</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-50">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data{<br>        msg_id:消息的id<br>    }<br>    return:<br>    {<br>        status:<br>    }<br><br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-51">
+
+<h5 id="客户申请房贷">客户申请房贷</h5>
+
+<p>*.php?C=Custom&amp;M=applyLoan</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-52">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data<br>    {<br>        data:<br>        {<br>            'in_productid':开发商Id<br>            'in_buildid':楼盘内部id<br>            'money':贷款金额<br>            'premoney':首付金额<br>            'times':贷款期次<br>            'area':面积<br>            'bank':贷款银行<br>            'type':付款方式 （按揭0 /全款1）<br>            'first_buliding':是否首套住房<br>            'repay_type':还款方式（0 等额本息 1等额本金)<br>            wx:来自哪个公众号 （zghg,zitan 。。。。）<br>        }<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">status</span>":<span class="hljs-value"><span class="hljs-literal">true</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-53">
+
+<h5 id="客户申请车贷">客户申请车贷</h5>
+
+<p>*.php?C=Custom&amp;M=applyCarLoan</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-54">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        data:<br>        {<br>            'in_4sid':4s店Id<br>            'money':贷款金额<br>            'premoney':首付<br>            'times':贷款期次<br>            'cartype':贷款车型<br>            'carset':车型配置<br>            'type':贷款类型<br>        }<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">status</span>":<span class="hljs-value"><span class="hljs-literal">true</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-55">
+
+<h5 id="客户申请装修贷">客户申请装修贷</h5>
+
+<p>*.php?C=Custom&amp;M=applyZxLoan</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-56">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data<br>    {<br>        data:<br>        {<br>            'money': 贷款金额 ,<br>                'times': 贷款期次 ,<br>                'bank': 贷款银行 ,<br>                'area':<br>                'addr':<br>        }<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">status</span>":<span class="hljs-value"><span class="hljs-literal">true</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-57">
+
+<h5 id="客户贷款进度信息">客户贷款进度信息</h5>
+
+<p>*.php?C=Custom&amp;M=getProcess</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-58">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data<br>    {<br>        loantype:贷款类型 zhuangxiudai,fangdai<br>    }<br>    return:<br>    {       status:<br>        error_code:<br>        msg:<br>        info:<br>        {<br>            "<span class="hljs-attribute">process</span>":<span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>            "<span class="hljs-attribute">msg</span>":<span class="hljs-value"><span class="hljs-literal">null</span><br>        </span>}<br>    } <br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-59">
+
+<h5 id="客户专属的客户经理">客户专属的客户经理</h5>
+
+<p>*.php?C=Custom&amp;M=getServer</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-60">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return:<br>    {<br>        "<span class="hljs-attribute">status</span>": <span class="hljs-value"><span class="hljs-literal">true</span></span>,<br>        "<span class="hljs-attribute">info</span>": <span class="hljs-value">{<br>            "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"大圣"</span></span>,<br>            "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"110"</span><br>        </span>}<br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-61">
+
+<h5 id="客户对客户经理的评价">客户对客户经理的评价</h5>
+
+<p>*.php?C=Custom&amp;M=grade2Server</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-62">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data<br>    {<br>        loanType:贷款类型(fangdai,chedai.....)<br>        data:<br>        {<br>            score:评分<br>            content:内容<br>        }<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">status</span>": <span class="hljs-value"><span class="hljs-literal">true</span></span>,<br>        "<span class="hljs-attribute">msg</span>": <span class="hljs-value"><span class="hljs-string">"提交评价成功"</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-63">
+
+<h5 id="查询客户贷款详情">查询客户贷款详情</h5>
+
+<p>*.php?C=Custom&amp;M=getLoan</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-64">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        loanType:贷款类型<br>    }<br>    return:<br>    {<br>    "<span class="hljs-attribute">status</span>": <span class="hljs-value"><span class="hljs-literal">true</span></span>,<br>    "<span class="hljs-attribute">info</span>": <span class="hljs-value">{<br>            "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"25"</span></span>,<br>            "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"38"</span></span>,<br>            "<span class="hljs-attribute">4sid</span>": <span class="hljs-value"><span class="hljs-string">"1"</span></span>,<br>            "<span class="hljs-attribute">money</span>": <span class="hljs-value"><span class="hljs-string">"748950"</span></span>,<br>            "<span class="hljs-attribute">premoney</span>": <span class="hljs-value"><span class="hljs-string">"3"</span></span>,<br>            "<span class="hljs-attribute">times</span>": <span class="hljs-value"><span class="hljs-string">"24"</span></span>,<br>            "<span class="hljs-attribute">cartype</span>": <span class="hljs-value"><span class="hljs-string">"奥迪A3"</span></span>,<br>            "<span class="hljs-attribute">process</span>": <span class="hljs-value"><span class="hljs-string">"4"</span></span>,<br>            "<span class="hljs-attribute">msg</span>": <span class="hljs-value">[<br>                {<br>                    "<span class="hljs-attribute">1</span>": <span class="hljs-value">{<br>                        "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-14 21:49:27"</span><br>                    </span>}</span>,<br>                    "<span class="hljs-attribute">3</span>": <span class="hljs-value">{<br>                        "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-14 21:50:16"</span><br>                    </span>}</span>,<br>                    "<span class="hljs-attribute">4</span>": <span class="hljs-value">{<br>                        "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-14 21:50:24"</span></span>,<br>                        "<span class="hljs-attribute">msg</span>": <span class="hljs-value">{<br>                            "<span class="hljs-attribute">need</span>": <span class="hljs-value">[<br>                                <span class="hljs-string">"身份证"</span>,<br>                                <span class="hljs-string">"sdf"</span><br>                            ]</span>,<br>                            "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-4-14 23:59:00"</span></span>,<br>                            "<span class="hljs-attribute">addr</span>": <span class="hljs-value"><span class="hljs-string">"sdf"</span><br>                        </span>}<br>                    </span>}<br>                </span>}<br>            ]</span>,<br>            "<span class="hljs-attribute">bank</span>": <span class="hljs-value"><span class="hljs-string">"中国建设银行"</span></span>,<br>            "<span class="hljs-attribute">carset</span>": <span class="hljs-value"><span class="hljs-string">"高配"</span></span>,<br>            "<span class="hljs-attribute">date</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-14 21:52:06"</span></span>,<br>            "<span class="hljs-attribute">serverid</span>": <span class="hljs-value"><span class="hljs-string">"1"</span><br>        </span>}<br></span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-65">
+
+<h5 id="客户取消贷款">客户取消贷款</h5>
+
+<p>*.php?C=Custom&amp;M=cancelLoan</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-66">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        loanType:贷款类型<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">status</span>":<span class="hljs-value"><span class="hljs-literal">true</span> /fasle<br>        <span class="hljs-string">"msg"</span>:<span class="hljs-string">"系统错误!!"</span><br>        'error_code'<br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-67">
+
+<h5 id="dedecms-获取销售和客户的基本信息">dedecms 获取销售和客户的基本信息</h5>
+
+<p>*.php?C=Custom&amp;M=getAllUser</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-68">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        loantype:贷款类型(fangdai chedai)<br>    }<br>    return:<br>    {<br>    "<span class="hljs-attribute">status</span>": <span class="hljs-value"><span class="hljs-literal">true</span></span>,<br>    "<span class="hljs-attribute">msg</span>": <span class="hljs-value">{<br>        "<span class="hljs-attribute">custom</span>": <span class="hljs-value">[<br>            {<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                "<span class="hljs-attribute">sex</span>": <span class="hljs-value"><span class="hljs-string">"男"</span><br>            </span>}<br>        ]</span>,<br>        "<span class="hljs-attribute">owner</span>": <span class="hljs-value">[<br>            {<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"李大嘴"</span></span>,<br>                "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12345678912"</span></span>,<br>                "<span class="hljs-attribute">sex</span>": <span class="hljs-value"><span class="hljs-string">"男"</span><br>            </span>}<br>        ]</span>,<br>        "<span class="hljs-attribute">sale</span>": <span class="hljs-value">[<br>            {<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span></span>,<br>                "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"13850333333"</span></span>,<br>                "<span class="hljs-attribute">sex</span>": <span class="hljs-value"><span class="hljs-string">"男"</span><br>            </span>}<br>        ]<br>    </span>}<br></span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-69">
+
+<h4 id="salecontrollerclassphp销售员接口">SaleController.class.php(销售员接口)</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-70">
+
+<h5 id="获取销售员的客户列表">获取销售员的客户列表</h5>
+
+<p>*.php?C=Sale&amp;M=getCustom</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-71">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return:<br>    {<br>        list:   <br>        [<br><br>            {<br>                "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"127"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"李大嘴"</span></span>,<br>                "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12345678912"</span></span>,<br>                "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"109"</span> (购买)<br>                <span class="hljs-string">"addr"</span>:客户地址<br>                <span class="hljs-string">"marry"</span><br>                <span class="hljs-string">"idcard"</span><br><br>            </span>},<br>            {<br>                "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"128"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"cc"</span></span>,<br>                "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12312531235"</span></span>,<br>                "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span>  (未购买)<br>            </span>}<br>        ]<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-72">
+
+<h5 id="发送消息给指定群体的客户群发消息">发送消息给指定群体的客户(群发消息)</h5>
+
+<p>*.php?C=Sale&amp;M=sendMsg</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-73">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        type:0,109 (0 是潜在客户 109是业主)<br>        data:<br>        {<br>            title:标题<br>            content:内容<br>        }<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">status</span>": <span class="hljs-value"><span class="hljs-literal">true</span> / <span class="hljs-literal">false</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-74">
+
+<h5 id="回复客户的消息">回复客户的消息</h5>
+
+<p>*.php?C=Sale&amp;M=replyMsg</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-75">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        data:<br>        {<br>            title:标题<br>            content:内容<br>            customid:客户id<br>        }<br><br>    }<br>    return:<br>    {<br>        status:true/false<br>    }<br><br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-76">
+
+<h5 id="更新消息的阅读状态">更新消息的阅读状态</h5>
+
+<p>*.php?C=Sale&amp;M=lookMsg</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-77">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        msg_id:消息的Id<br>    }   <br>    return:<br>    {<br>        status:true/fasle<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-78">
+
+<h5 id="获取来自客户的消息">获取来自客户的消息</h5>
+
+<p>*.php?C=Sale&amp;M=getCustomMsg</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-79">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return：<br>    {<br>        "<span class="hljs-attribute">consult</span>": <span class="hljs-value">[<br>            {<br>                "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"129"</span></span>,<br>                "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"来自潜在客户的消息"</span></span>,<br>                "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"很纠结吧"</span></span>,<br>                "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-27 00:00:00"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"雷锋"</span><br>                <span class="hljs-string">"phone"</span>:<br>                <span class="hljs-string">"is_look"</span>:是否查看<br>                <span class="hljs-string">"msg_id"</span><br>            </span>},<br>            {<br>                "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"129"</span></span>,<br>                "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"来自潜在客户的消息"</span></span>,<br>                "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"嫁女女"</span></span>,<br>                "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-27 00:00:00"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"雷锋"</span><br>            </span>}<br>        ]</span>,<br>        "<span class="hljs-attribute">bespeak</span>": <span class="hljs-value">[<br>            {<br>                "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"58"</span></span>,<br>                "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"潜在客户预约看房"</span></span>,<br>                "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"debug&amp;18202878753&amp;不在线&amp;套二"</span></span>,<br>                "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-19 00:00:00"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"雷锋"</span><br>                <span class="hljs-string">"phone"</span>:<br>                <span class="hljs-string">"is_look"</span>:是否查看<br>            </span>},<br>            {<br>                "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"68"</span></span>,<br>                "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"潜在客户预约看房"</span></span>,<br>                "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"啦啦嘛&amp;12345678912&amp;哇&amp;套三"</span></span>,<br>                "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-20 00:00:00"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"雷锋"</span><br>            </span>}<br>        ]<br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-80">
+
+<h5 id="获取消息列表不包含来自客户的消息">获取消息列表(不包含来自客户的消息)</h5>
+
+<p>*.php?C=Sale&amp;M=getMsg <br>
+消息来源  0系统 1银行 3物业  4客户 5客户预约  6管理员</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-81">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return:<br>    {<br>        list:<br>        [<br>            {<br>                "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"来自潜在客户的消息"</span></span>,<br>                "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"操操操"</span></span>,<br>                "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-19 00:00:00"</span></span>,<br>                "<span class="hljs-attribute">source</span>": <span class="hljs-value"><span class="hljs-string">"4"</span><br>            </span>},<br>            {<br>                "<span class="hljs-attribute">title</span>": <span class="hljs-value"><span class="hljs-string">"潜在客户预约看房"</span></span>,<br>                "<span class="hljs-attribute">content</span>": <span class="hljs-value"><span class="hljs-string">"debug&amp;18202878753&amp;不在线&amp;套二"</span></span>,<br>                "<span class="hljs-attribute">time</span>": <span class="hljs-value"><span class="hljs-string">"2016-04-19 00:00:00"</span></span>,<br>                "<span class="hljs-attribute">source</span>": <span class="hljs-value"><span class="hljs-string">"5"</span><br>            </span>}<br>        ] <br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-82">
+
+<h5 id="获取销售员所有信息个人信息评分信息二维码">获取销售员所有信息(个人信息、评分信息、二维码)</h5>
+
+<p>*.php?C=Sale&amp;M=getSale</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-83">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return:<br>    {<br>        info:<br>        {<br>            "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"1"</span></span>,<br>            "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span></span>,<br>            "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"13850333333"</span></span>,<br>            "<span class="hljs-attribute">source</span>": <span class="hljs-value"><span class="hljs-string">"fangdai"</span></span>,<br>            "<span class="hljs-attribute">img_path</span>": <span class="hljs-value"><span class="hljs-string">"/Lib/Public/Img/sale/fangdaisale.jpg"</span></span>,<br>            "<span class="hljs-attribute">idcard</span>":<span class="hljs-value">xxxxxx<br>            <span class="hljs-string">"score"</span>: <span class="hljs-string">"3.500000"</span></span>,<br>            "<span class="hljs-attribute">score_list</span>": <span class="hljs-value">[<br>                {<br>                    "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"77"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"3.00"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"64"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"2.00"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"101"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"5.00"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"129"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"4.00"</span><br>                </span>}<br>            ]</span>,<br>            "<span class="hljs-attribute">score_count</span>": <span class="hljs-value"><span class="hljs-number">4</span></span>,<br>            "<span class="hljs-attribute">qcrode_path</span>": <span class="hljs-value"><span class="hljs-string">"Lib/Public/Qrcode/1.jpg"</span><br>        </span>}<br>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-84">
+
+<h5 id="更新销售员的个人信息">更新销售员的个人信息</h5>
+
+<p>*.php?C=Sale&amp;M=updateSale</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-85">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:data<br>    {<br>        id:销售id<br>        data:<br>        {<br>            name:姓名<br>            phone:电话<br>            idcard:身份证<br>        }<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">status</span>":<span class="hljs-value"><span class="hljs-literal">true</span>/<span class="hljs-literal">false</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-86">
+
+<h5 id="销售员的业绩分析">销售员的业绩分析</h5>
+
+<p>*.php?C=Sale&amp;M=yaerDetail</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-87">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return:<br>    {<br>        "<span class="hljs-attribute">info</span>": <span class="hljs-value">{<br>            "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"1"</span></span>,<br>            "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span></span>,<br>            "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"13850333333"</span></span>,<br>            "<span class="hljs-attribute">source</span>": <span class="hljs-value"><span class="hljs-string">"fangdai"</span></span>,<br>            "<span class="hljs-attribute">idcard</span>": <span class="hljs-value"><span class="hljs-string">"111111111111111111"</span><br>        </span>}</span>,<br>        "<span class="hljs-attribute">today</span>": <span class="hljs-value">{<br>            "<span class="hljs-attribute">today_count</span>": <span class="hljs-value"><span class="hljs-number">1</span></span>,(今日接待)<br>            "<span class="hljs-attribute">today_total</span>": <span class="hljs-value"><span class="hljs-number">1</span>(今日成交)<br>        </span>}</span>,<br>        "<span class="hljs-attribute">yeartotal</span>": <span class="hljs-value"><span class="hljs-number">3</span></span>,(总销量)<br>        "<span class="hljs-attribute">year</span>": <span class="hljs-value">[(今年<span class="hljs-number">12</span>个月，每个月的销售量)<br>            <span class="hljs-number">0</span>,<br>            <span class="hljs-number">0</span>,<br>            <span class="hljs-number">1</span>,<br>            <span class="hljs-number">1</span>,<br>            <span class="hljs-number">1</span>,<br>            <span class="hljs-number">0</span>,<br>            <span class="hljs-number">0</span>,<br>            <span class="hljs-number">0</span>,<br>            <span class="hljs-number">0</span>,<br>            <span class="hljs-number">0</span>,<br>            <span class="hljs-number">0</span>,<br>            <span class="hljs-number">0</span><br>        ]<br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-88">
+
+<h4 id="managercontrollerclassphp管理员接口">ManagerController.class.php(管理员接口)</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-89">
+
+<h5 id="注册销售员获取管理员的二维码">注册销售员(获取管理员的二维码)</h5>
+
+<p>*.php?C=Manager&amp;M=getQrcode</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-90">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        type:贷款类型 (fangdai,chedai)<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">qcrode_path</span>":<span class="hljs-value"><span class="hljs-string">"Lib\/Public\/Qrcode\/99999.jpg"</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-91">
+
+<h5 id="销售员列表">销售员列表</h5>
+
+<p>*.php?C=Manager&amp;M=getSaleList</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-92">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        type:nage fuwu hao (fangdai,chedai)<br>    }<br>    return:<br>    {<br>        status:true/false<br>        list:<br>        [<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"1"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"13850333333"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"3.500000"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"4"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"房贷销售员"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"13850222222"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-literal">null</span><br>                </span>}<br>            ]<br><br>    }<br><br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-93">
+
+<h5 id="销售员详情">销售员详情</h5>
+
+<p>*.php?C=Manager&amp;M=saleDetail</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-94">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        sid:销售员id <br>    }<br>    return :<br>    {<br>        "<span class="hljs-attribute">sale</span>": <span class="hljs-value">{<br>            "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"1"</span></span>,<br>            "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span></span>,<br>            "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"13850333333"</span></span>,<br>            "<span class="hljs-attribute">source</span>": <span class="hljs-value"><span class="hljs-string">"fangdai"</span></span>,<br>            "<span class="hljs-attribute">img_path</span>": <span class="hljs-value"><span class="hljs-string">"/Lib/Public/Img/sale/fangdaisale.jpg"</span></span>,<br>            "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"3.500000"</span></span>,<br>            "<span class="hljs-attribute">score_list</span>": <span class="hljs-value">[<br>                {<br>                    "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"77"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"3.00"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"64"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"2.00"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"101"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"5.00"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">customid</span>": <span class="hljs-value"><span class="hljs-string">"129"</span></span>,<br>                    "<span class="hljs-attribute">score</span>": <span class="hljs-value"><span class="hljs-string">"4.00"</span><br>                </span>}<br>            ]</span>,<br>            "<span class="hljs-attribute">score_count</span>": <span class="hljs-value"><span class="hljs-number">4</span></span>,<br>            "<span class="hljs-attribute">qcrode_path</span>": <span class="hljs-value"><span class="hljs-string">"Lib/Public/Qrcode/1.jpg"</span><br>        </span>}</span>,<br>        "<span class="hljs-attribute">custom</span>": <span class="hljs-value">{<br>            "<span class="hljs-attribute">custom</span>": <span class="hljs-value">[<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"128"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"cc"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12312531235"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"109"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"129"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"雷锋"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12345678912"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"109"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"130"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"张三"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"15896325698"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"109"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"132"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"海德堡"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12312312312"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"109"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"133"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"很少"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"11112222333"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"109"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"135"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"136"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"刘"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"13980083454"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"137"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"机器"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12365479911"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"109"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"140"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"蒋茜"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"18782999974"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"141"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"142"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"1381233"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"18380448381"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"143"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span><br>                </span>}<br>            ]</span>,<br>            "<span class="hljs-attribute">count</span>": <span class="hljs-value"><span class="hljs-number">12</span></span>,(总接待人数)<br>            "<span class="hljs-attribute">total</span>": <span class="hljs-value"><span class="hljs-number">6</span></span>,(总成交量)<br>            "<span class="hljs-attribute">today_custom</span>": <span class="hljs-value">[<br>                {<br>                    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"143"</span></span>,<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                    "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                    "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span><br>                </span>}<br>            ]</span>,<br>            "<span class="hljs-attribute">today_count</span>": <span class="hljs-value"><span class="hljs-number">2</span></span>,(今日接待量)<br>            "<span class="hljs-attribute">today_total</span>": <span class="hljs-value"><span class="hljs-number">1</span>(今日成交量)<br>        </span>}<br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-95">
+
+<h5 id="客户列表">客户列表</h5>
+
+<p>*.php?C=Manager&amp;M=getCustomList</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-96">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        type:贷款类型 (fangdai、chedai)<br>    }<br>    return:<br>    {<br>        status:<br>        msg:<br>        error_code:<br>        list:<br>        [<br>            {<br>                "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"140"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"蒋茜"</span></span>,<br>                "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"18782999974"</span></span>,<br>                "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                "<span class="hljs-attribute">sale_name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span><br>            </span>},<br>            {<br>                "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"143"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"贷款测试"</span></span>,<br>                "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12345678912"</span></span>,<br>                "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"0"</span></span>,<br>                "<span class="hljs-attribute">sale_name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span><br>            </span>},<br>            {<br>                "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-string">"129"</span></span>,<br>                "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"雷锋"</span></span>,<br>                "<span class="hljs-attribute">phone</span>": <span class="hljs-value"><span class="hljs-string">"12345678912"</span></span>,<br>                "<span class="hljs-attribute">type</span>": <span class="hljs-value"><span class="hljs-string">"109"</span></span>,<br>                "<span class="hljs-attribute">sale_name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span><br>            </span>}<br>        ]<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-97">
+
+<h5 id="客户分析">客户分析</h5>
+
+<p>*.php?C=Manager&amp;M=customAnaly</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-98">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        type:贷款类型 (fangdai、chedai)  <br>    }<br>    return:<br>    {<br>        woman：<br>        {<br>            "<span class="hljs-attribute">sex</span>": <span class="hljs-value"><span class="hljs-string">"女"</span></span>,<br>            "<span class="hljs-attribute">num</span>": <span class="hljs-value"><span class="hljs-string">"1"</span><br>        </span>},<br>        man：<br>        {<br>            "<span class="hljs-attribute">sex</span>": <span class="hljs-value"><span class="hljs-string">"男"</span></span>,<br>            "<span class="hljs-attribute">num</span>": <span class="hljs-value"><span class="hljs-string">"11"</span><br>        </span>}<br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-99">
+
+<h5 id="业绩统计">业绩统计</h5>
+
+<p>*.php?C=Manager&amp;M=perforAnaly</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-100">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        type:贷款类型  (chedai,fangdai)<br>    }<br>    return:<br>    {<br>        "<span class="hljs-attribute">analy</span>": <span class="hljs-value">{<br>            "<span class="hljs-attribute">today_custom</span>": <span class="hljs-value"><span class="hljs-number">0</span></span>,<br>            "<span class="hljs-attribute">today_total</span>": <span class="hljs-value"><span class="hljs-number">0</span><br>        </span>}</span>,<br>        "<span class="hljs-attribute">sale</span>": <span class="hljs-value">{<br>            "<span class="hljs-attribute">total</span>": <span class="hljs-value"><span class="hljs-number">6</span></span>,<br>            "<span class="hljs-attribute">sale_list</span>": <span class="hljs-value">[<br>                {<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"房贷销售员"</span></span>,<br>                    "<span class="hljs-attribute">num</span>": <span class="hljs-value"><span class="hljs-string">"0"</span><br>                </span>},<br>                {<br>                    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"奔波尔吧"</span></span>,<br>                    "<span class="hljs-attribute">num</span>": <span class="hljs-value"><span class="hljs-string">"12"</span><br>                </span>}<br>            ]<br>        </span>}<br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-101">
+
+<h4 id="房贷控制器fangdaicontroller">房贷控制器(FangdaiController)</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-102">
+
+<h5 id="获取jsapi">获取Jsapi</h5>
+
+<p>index.php?C=Fangdai&amp;M=getJsapi</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-103">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return :<br>    {<br>        "<span class="hljs-attribute">ticket</span>":<span class="hljs-value"><span class="hljs-string">"sM4AOVdWfPE4DxkXGEs8VCTb9zLCWnS2v28yk2NfbXxyXUql0hLVKnSGc0EPdyvNLNn2yekDMeckC1JMwQtSwg"</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-104">
+
+<h4 id="车贷控制器chedaicontroller">车贷控制器(ChedaiController)</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-105">
+
+<h5 id="获取jsapi-1">获取Jsapi</h5>
+
+<p>chedai.php?C=chedai&amp;M=getJsapi</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-106">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    return :<br>    {<br>        "<span class="hljs-attribute">ticket</span>":<span class="hljs-value"><span class="hljs-string">"sM4AOVdWfPE4DxkXGEs8VCTb9zLCWnS2v28yk2NfbXxyXUql0hLVKnSGc0EPdyvNLNn2yekDMeckC1JMwQtSwg"</span><br>    </span>}<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-107">
+
+<h4 id="图片控制器">图片控制器</h4>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-108">
+
+<h5 id="上传头像">上传头像</h5>
+
+<p>*php?C=Img&amp;M=uploadHeadImg</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-109">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        media_id:<br>        loan_type: 贷款类型<br>        data：<br>        {<br>            belong_id:上传者id<br>            belong_role:上传者所属角色（    1是管理 2是销售  3是用户）    <br>        }<br>    }<br>    return:<br>    {<br>        status:true/false<br>        msg: <br>    }<br></code></pre>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-110">
+
+<h5 id="上传头像-base64">上传头像 Base64</h5>
+
+<p>*php?C=Img&amp;M=uploadBase64Img</p>
+
+</div><div class="wmd-preview-section preview-content" id="wmd-preview-section-111">
+
+<pre class="prettyprint hljs-dark"><code class="language-json hljs">    post:<br>    {<br>        loan_type: 贷款类型<br>        data：<br>        {<br>            belong_id:上传者id<br>            belong_role:上传者所属角色（    1是管理 2是销售  3是用户）    <br>        }<br>        img:base<span class="hljs-number">6</span><span class="hljs-number">4</span>转码后的图片    <br>    }<br></code></pre></div><div class="preview-content" id="wmd-preview-section-footnotes"></div></div></body></html>
