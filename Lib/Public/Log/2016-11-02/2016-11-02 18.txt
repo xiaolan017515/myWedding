@@ -1,0 +1,15 @@
+2016-11-02 18:37:49:message:
+array (
+  'type' => 64,
+  'message' => 'Cannot use [] for reading',
+  'file' => 'E:\\www\\Lib\\Controller\\MessageController.class.php',
+  'line' => 46,
+  'tag' => 'shutdownFunction',
+)2016-11-02 18:37:51:message:
+array (
+  'type' => 64,
+  'message' => 'Cannot use [] for reading',
+  'file' => 'E:\\www\\Lib\\Controller\\MessageController.class.php',
+  'line' => 46,
+  'tag' => 'shutdownFunction',
+)
