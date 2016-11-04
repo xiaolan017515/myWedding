@@ -1,0 +1,15 @@
+2016-11-03 17:00:01:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function curl_init()',
+  'file' => 'E:\\www\\Lib\\Common\\common.php',
+  'line' => 49,
+  'tag' => 'shutdownFunction',
+)2016-11-03 17:00:02:message:
+array (
+  'type' => 1,
+  'message' => 'Call to undefined function curl_init()',
+  'file' => 'E:\\www\\Lib\\Common\\common.php',
+  'line' => 49,
+  'tag' => 'shutdownFunction',
+)
