@@ -1,0 +1,125 @@
+2016-11-03 14:09:24:message:
+错误类型:8
+错误提示:Undefined index: echostr
+错误文件:/alidata/www/default/Lib/Controller/MessageController.class.php
+错误行:114
+2016-11-03 14:09:24:message:
+错误类型:8
+错误提示:Undefined index: signature
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:85
+2016-11-03 14:09:24:message:
+错误类型:8
+错误提示:Undefined index: timestamp
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:86
+2016-11-03 14:09:24:message:
+错误类型:8
+错误提示:Undefined index: nonce
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:87
+2016-11-03 14:28:14:message:
+错误类型:8
+错误提示:Undefined index: echostr
+错误文件:/alidata/www/default/Lib/Controller/MessageController.class.php
+错误行:114
+2016-11-03 14:28:14:message:
+错误类型:8
+错误提示:Undefined index: signature
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:85
+2016-11-03 14:28:14:message:
+错误类型:8
+错误提示:Undefined index: timestamp
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:86
+2016-11-03 14:28:14:message:
+错误类型:8
+错误提示:Undefined index: nonce
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:87
+2016-11-03 14:34:08:message:
+错误类型:8
+错误提示:Undefined index: echostr
+错误文件:/alidata/www/default/Lib/Controller/MessageController.class.php
+错误行:114
+2016-11-03 14:40:03:message:
+错误类型:8
+错误提示:Undefined index: echostr
+错误文件:/alidata/www/default/Lib/Controller/MessageController.class.php
+错误行:114
+2016-11-03 14:40:03:message:
+错误类型:8
+错误提示:Undefined index: signature
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:85
+2016-11-03 14:40:03:message:
+错误类型:8
+错误提示:Undefined index: timestamp
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:86
+2016-11-03 14:40:03:message:
+错误类型:8
+错误提示:Undefined index: nonce
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:87
+2016-11-03 14:40:17:message:
+错误类型:8
+错误提示:Undefined index: echostr
+错误文件:/alidata/www/default/Lib/Controller/MessageController.class.php
+错误行:114
+2016-11-03 14:40:17:message:
+错误类型:8
+错误提示:Undefined index: signature
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:85
+2016-11-03 14:40:17:message:
+错误类型:8
+错误提示:Undefined index: timestamp
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:86
+2016-11-03 14:40:17:message:
+错误类型:8
+错误提示:Undefined index: nonce
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:87
+2016-11-03 14:40:20:message:
+错误类型:8
+错误提示:Undefined index: echostr
+错误文件:/alidata/www/default/Lib/Controller/MessageController.class.php
+错误行:114
+2016-11-03 14:40:20:message:
+错误类型:8
+错误提示:Undefined index: signature
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:85
+2016-11-03 14:40:20:message:
+错误类型:8
+错误提示:Undefined index: timestamp
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:86
+2016-11-03 14:40:20:message:
+错误类型:8
+错误提示:Undefined index: nonce
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:87
+2016-11-03 14:40:23:message:
+错误类型:8
+错误提示:Undefined index: echostr
+错误文件:/alidata/www/default/Lib/Controller/MessageController.class.php
+错误行:114
+2016-11-03 14:40:23:message:
+错误类型:8
+错误提示:Undefined index: signature
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:85
+2016-11-03 14:40:23:message:
+错误类型:8
+错误提示:Undefined index: timestamp
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:86
+2016-11-03 14:40:23:message:
+错误类型:8
+错误提示:Undefined index: nonce
+错误文件:/alidata/www/default/Lib/Controller/WeixinController.class.php
+错误行:87

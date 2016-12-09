@@ -1,0 +1,155 @@
+@charset "utf-8";
+@import "plus/z";
+@import "../css/common.css";
+
+@liHeight: 55px;
+.liuyan-box{
+	.maxBody();
+	position: relative;
+	.canvas-box{
+		.maxBody();
+		position: absolute;
+		z-index: 0;
+		#background{
+			height: 100%;
+		}
+	}
+	.content-box{
+		.maxBody();
+		.d-flex-v();
+		position: absolute;
+		z-index: 99;
+	}
+	.text-box{
+		height: 40px;
+		width: 100%;
+		box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+		position: fixed;
+		bottom: 0;
+		z-index: 999;
+		input{
+			width: 70%;
+			height: 100%;
+			line-height: 40px;
+			font-size: 13px;
+			padding-left: 10px;
+			color: #fff;
+			font-family: '微软雅黑';
+		}
+		button{
+			width: 20%;
+			height: 80%;
+			position: absolute;
+			right: 0;
+			top: 10%;
+			border: none;
+			outline: none;
+			margin: 0 10px;
+			border-radius: 5px;
+			color: #fff;
+		    background-color: #f0ad4e;
+		    border-color: #eea236;
+		    font-family: '微软雅黑';
+		    overflow:hidden;
+		    
+			&:after{
+				content:"";
+				background:rgba(255,255,255,0.3);
+				display:block;
+				position:absolute;
+				border-radius:50%;
+				padding-top:240%;
+				padding-left:240%;
+				margin-top:-120%;
+				margin-left:-120%;
+				opacity:0;
+				transition:all 1s
+			}
+			&:active:after{
+				padding-top:0;
+				padding-left:0;
+				margin-top:0;
+				margin-left:0;
+				opacity:1;
+				transition:0s
+			}
+		}
+	}
+	
+	header{
+		text-align: center;
+		padding: 15px;
+		img{
+			width: 80%;
+		}
+	}
+	.content{
+		.b-sizing();
+		width: 100%;
+		padding: 15px;
+		margin-bottom: 40px;
+		overflow: auto;
+		.flex();
+		li{
+			width: 100%;
+			height: @liHeight;
+			margin-bottom: 30px;
+			.d-flex-h();
+			.left{
+				width: @liHeight;
+				height: 100%;
+				.d-flex-h();
+				.flex-hc();
+				.flex-vc();
+				margin-right: 10px;
+				img{
+					.maxBody(80%,80%);
+					border-radius: 50%;
+				}
+			}
+			.right{
+				.flex();
+				.d-flex-v();
+				font-family: '微软雅黑';
+				height: 100%;
+				border-bottom: 1px solid #eee;
+				b{	
+					.d-flex-h();
+					height: 26px;
+					width: 100%;
+					.name{
+						.flex(1.5);
+					    overflow: hidden;
+					    text-overflow: ellipsis;
+					    display: -webkit-box;
+					    -webkit-line-clamp: 1;
+					    -webkit-box-orient: vertical;
+					    word-break: break-word;
+						font-size: 18px;
+						line-height: 24px;
+						color: #fff;
+					}
+					.time{
+						.flex(1);
+						font-size: 10px;
+						line-height: 12px;
+						color: #eee;
+						text-align: right;
+					}
+				}
+				p{
+					font-size: 14px;
+					line-height: 30px;
+					width: 90%;
+					color: #ccc;
+					overflow: hidden;
+				    text-overflow: ellipsis;
+				    display: -webkit-box;
+				    -webkit-line-clamp: 1;
+				    -webkit-box-orient: vertical;
+				    word-break: break-word;
+				}
+			}
+		}
+	}
+}
