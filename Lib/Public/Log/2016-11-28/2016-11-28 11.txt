@@ -1,5 +1,0 @@
-2016-11-28 11:36:05:message:
-错误类型:256
-错误提示:数据库执行出错
-错误文件:/alidata/www/default/Lib/Driver/db.driver.php
-错误行:78

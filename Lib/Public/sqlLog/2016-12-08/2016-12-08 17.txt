@@ -1,2 +1,0 @@
-2016-12-08 17:03:14: insert into userjoin(userName,date,phone,people) values('周鑫建','2016-12-08 17:03:14','15892727529','1')
-2016-12-08 17:06:34: insert into userjoin(userName,date,phone,people) values('实时','2016-12-08 17:06:34','15889566255','1')
