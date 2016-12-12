@@ -1,0 +1,15 @@
+2016-11-03 15:58:41:message:
+错误类型:256
+错误提示:数据库执行出错
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:78
+2016-11-03 15:58:45:message:
+错误类型:256
+错误提示:数据库执行出错
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:78
+2016-11-03 15:58:46:message:
+错误类型:256
+错误提示:数据库执行出错
+错误文件:E:\www\Lib\Driver\db.driver.php
+错误行:78
